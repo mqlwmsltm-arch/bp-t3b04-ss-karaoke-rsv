@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>블로그 – 상수 가라오케 예약</title>
+    <meta name="description" content="상수 가라오케 예약 블로그. bro가 알려주는 꿀팁 대방출. 24시 예약 전화 010-6279-0862">
+    <meta name="keywords" content="상수 가라오케 예약, 상수역 가라오케 블로그, 가라오케 팁, 홍대 가라오케, 24시 가라오케">
+    <link rel="canonical" href="https://t3b04-ss-karaoke-rsv.pages.dev/blog">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <!-- OG 메타 -->
+    <meta property="og:title" content="블로그 – 상수 가라오케 예약 bro가 알려줌">
+    <meta property="og:description" content="상수역 가라오케 예약, 진짜 꿀팁만 모았다. 24시 콜 한 방이면 끝. 010-6279-0862">
+    <meta property="og:url" content="https://t3b04-ss-karaoke-rsv.pages.dev/blog">
+    <meta property="og:type" content="article">
+    <style>
+        /* ===== RESET & BASE ===== */
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { scroll-behavior:smooth; }
+        body { font-family:'Courier New',Monaco,monospace; background:#0a0a0a; color:#e0e0e0; line-height:1.6; min-height:100vh; }
+        body::before { content:''; position:fixed; top:0; left:0; width:100%; height:100%; background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="4" height="4"><rect fill="%23ffffff" opacity="0.03" width="1" height="1"/></svg>'); pointer-events:none; z-index:9999; }
+        a { color:#ff0055; text-decoration:underline; text-underline-offset:3px; }
+        a:hover, a:focus { color:#00ffcc; outline:2px solid #00ffcc; }
+        img, svg { max-width:100%; height:auto; display:block; }
+        ul { list-style:none; }
+        /* ===== TYPOGRAPHY ===== */
+        h1 { font-size:clamp(2rem,6vw,4rem); font-weight:900; text-transform:uppercase; letter-spacing:-0.02em; color:#ff0055; text-shadow:4px 4px 0 #00ffcc,8px 8px 0 rgba(255,0,85,0.3); margin-bottom:0.5em; }
+        h2 { font-size:clamp(1.5rem,4vw,2.5rem); font-weight:700; color:#00ffcc; border-left:6px solid #ff0055; padding-left:0.5em; margin:1.5em 0 0.5em; }
+        h3 { font-size:clamp(1.2rem,3vw,1.8rem); font-weight:600; color:#ffaa00; margin:1em 0 0.3em; }
+        p, li, blockquote { font-size:1.1rem; margin-bottom:1em; }
+        .text-accent { color:#ff0055; font-weight:700; }
+        .text-mo { color:#00ffcc; }
+        /* ===== LAYOUT ===== */
+        .container { max-width:1200px; margin:0 auto; padding:20px; }
+        header { background:#111; border-bottom:4px solid #ff0055; padding:20px 0; }
+        header .container { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; }
+        .logo { font-size:1.8rem; font-weight:900; color:#00ffcc; text-transform:uppercase; text-decoration:none; letter-spacing:2px; }
+        .logo:hover { color:#ff0055; }
+        nav ul { display:flex; gap:25px; align-items:center; }
+        nav a { color:#e0e0e0; font-weight:600; font-size:1.1rem; text-transform:uppercase; letter-spacing:1px; position:relative; }
+        nav a:hover { color:#ff0055; }
+        .hamburger { display:none; cursor:pointer; flex-direction:column; gap:5px; width:30px; }
+        .hamburger span { display:block; height:3px; background:#00ffcc; width:100%; transition:0.3s; }
+        .tel-link { display:inline-block; background:#ff0055; color:#fff; padding:10px 20px; font-weight:700; border-radius:4px; text-decoration:none; font-size:1.2rem; transition:0.3s; border:2px solid #ff0055; }
+        .tel-link:hover { background:#00ffcc; color:#0a0a0a; border-color:#00ffcc; }
+        main { padding:40px 0; }
+        .blog-article { background:rgba(255,255,255,0.02); border:2px solid #ff0055; padding:30px; margin-bottom:40px; position:relative; }
+        .blog-article::before { content:''; position:absolute; top:-8px; left:-8px; width:16px; height:16px; background:#00ffcc; }
+        .blog-meta { font-size:0.9rem; color:#888; margin-bottom:20px; }
+        .blog-meta span { margin-right:20px; }
+        .blog-content p:first-of-type::first-letter { font-size:3rem; font-weight:900; color:#ff0055; float:left; margin-right:8px; line-height:1; }
+        blockquote { border-left:4px solid #ffaa00; padding:10px 20px; background:rgba(255,170,0,0.05); margin:1.5em 0; font-style:italic; }
+        blockquote::before { content:'“'; font-size:2rem; color:#ffaa00; }
+        blockquote::after { content:'”'; font-size:2rem; color:#ffaa00; }
+        .cta-box { background:#111; border:2px solid #00ffcc; padding:25px; text-align:center; margin:2em 0; }
+        .cta-box p { font-size:1.2rem; margin-bottom:0.5em; }
+        footer { border-top:4px solid #ff0055; padding:30px 0; background:#111; text-align:center; }
+        footer p { font-size:0.9rem; }
+        /* ===== RESPONSIVE ===== */
+        @media(max-width:768px) {
+            nav ul { display:none; flex-direction:column; background:#1a1a1a; padding:20px; position:absolute; top:80px; left:0; width:100%; gap:15px; border-bottom:4px solid #ff0055; }
+            nav ul.active { display:flex; }
+            .hamburger { display:flex; }
+            .logo { font-size:1.4rem; }
+            .tel-link { font-size:1rem; padding:8px 15px; }
+            .blog-article { padding:20px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="/" class="logo">상수 가라오케</a>
+            <nav>
+                <div class="hamburger" onclick="this.nextElementSibling.classList.toggle('active')">
+                    <span></span><span></span><span></span>
+                </div>
+                <ul>
+                    <li><a href="/">홈</a></li>
+                    <li><a href="/about">소개</a></li>
+                    <li><a href="/price">요금</a></li>
+                    <li><a href="/blog">블로그</a></li>
+                    <li><a href="/contact">연락처</a></li>
+                </ul>
+            </nav>
+            <a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>BLOG</h1>
+            <article class="blog-article">
+                <div class="blog-meta">
+                    <span>📅 2025.04.07</span>
+                    <span>✍️ bro</span>
+                    <span>🏷️ 예약꿀팁</span>
+                </div>
+                <h2>상수 가라오케 예약, 이렇게 하면 200% 성공한다</h2>
+                <div class="blog-content">
+                    <p>야, bro. 상수역에서 제대로 놀고 싶은데 예약이 안 된다고? 나도 처음엔 그랬어. 전화 돌리고, 발로 뛰고… 진짜 X팔리더라. 근데 지금은 다르다. 상수 가라오케 예약, 진짜 간단하게 하는 방법 알려줄게.</p>
+
+                    <p>첫째, <strong class="text-accent">전화 한 통이면 끝</strong>이야. 010-6279-0862로 바로 걸어. 24시라서 새벽에 갑자기 놀고 싶을 때도 OK. 예약 없이 그냥 가면 웨이팅 30분은 기본이야. bro 말 들어라.</p>
+
+                    <p>둘째, <strong class="text-accent">단체로 갈 땐 인원수 딱 말해</strong>. "몇 명이요?" 물어보면 "4명이요~" 하고 끝. 근데 가끔 3명인데 4명이라고 했다가 자리 문제 생기더라. 솔직하게 말하는 게 젤 좋아.</p>
+
+                    <blockquote>
+                        지난주 금요일에 친구 5명이랑 갔는데, 전화하고 10분 만에 입장했다. 진짜 깔끔. 예약 안 한 다른 팀은 1시간 기다리더라. 내가 다 안쓰럽네.
+                    </blockquote>
+
+                    <p>셋째, <strong class="text-accent">노래방 기계 상태도 미리 체크</strong>할 수 있어. 전화할 때 "금영인가요? TJ인가요?" 물어보면 친절하게 알려줘. 나는 TJ파라서 그거 있는 룸으로 달라고 했더니 바로 배정해줬다.</p>
+
+                    <p>넷째, <strong class="text-accent">주차 팁</strong>도 알려줄게. 근처에 공영주차장 있는데, 밤 10시 이후엔 무료더라. 근데 자리가 많진 않아서 예약할 때 "차량 있어요" 말하면 근처 빈자리도 알려준다. 아, 나는 그냥 지하철 타고 갔음. 상수역 2번 출구에서 3분이면 도착.</p>
+
+                    <p><strong class="text-accent">마지막으로 가장 중요한 거</strong> – 전화할 때 목소리만 크게 해도 친절하게 응대해줘. 예전에 술 취해서 "야야야 나 가라오케 가게" 했는데도 웃으면서 받아주더라. 그래도 bro, 예의는 지키자. 예의 바르면 서비스도 더 받을 수 있어.</p>
+
+                    <div class="cta-box">
+                        <p><span class="text-accent">🔥 지금 당장 예약하고 싶다면?</span></p>
+                        <p>전화 한 통이면 끝. <br> <strong class="text-mo">010-6279-0862</strong></p>
+                        <p>예약 없이도 갈 수 있지만, 기다리기 싫으면 전화 먼저 해라!</p>
+                    </div>
+
+                    <p>사실 나도 처음에 상수역 가라오케 찾아보다가 여기 알게 됐는데, 한 번 가보고 완전 꽂혔어. 방도 크고, 마이크 음질도 좋고, 무엇보다 <strong class="text-accent">24시</strong>라는 게 존나 좋아. 새벽 3시에 갑자기 노래 부르고 싶을 때가 있잖아? 여기만한 데가 없더라.</p>
+
+                    <p>블로그 보는 bro들, 부디 내 꿀팁 기억해라. 그리고 가게 되면 전화 한 통 해. 010-6279-0862. 외우기 쉽지? 이거 보고도 예약 안 하면 진짜 손해. 자, 이제 고고씽~</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 상수 가라오케 예약 · 모든 권리 보유 · bro가 만듦</p>
+            <p>전화 예약: <a href="tel:010-6279-0862">010-6279-0862</a> · 상수역 2번 출구 도보 3분</p>
+        </div>
+    </footer>
+
+    <script>
+        // 햄버거 메뉴 간단 토글
+        document.querySelectorAll('.hamburger').forEach(el => {
+            el.addEventListener('click', function(e) {
+                this.nextElementSibling.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
