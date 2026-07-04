@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mqlwmsltm-arch.github.io/bp-t3b04-ss-karaoke-rsv/</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://sangsu-song-room.mapo-room-guide.xyz/</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://mqlwmsltm-arch.github.io/bp-t3b04-ss-karaoke-rsv/posts/guide-001-1gb03eh.html</loc>
-    <lastmod>2026-06-15</lastmod>
+    <loc>https://sangsu-song-room.mapo-room-guide.xyz/blog.html</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://mqlwmsltm-arch.github.io/bp-t3b04-ss-karaoke-rsv/posts/qa-002-1ppqoys.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://sangsu-song-room.mapo-room-guide.xyz/about.html</loc>
+    <lastmod>2026-05-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mqlwmsltm-arch.github.io/bp-t3b04-ss-karaoke-rsv/posts/review-001.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mqlwmsltm-arch.github.io/bp-t3b04-ss-karaoke-rsv/posts/review-002.html</loc>
-    <lastmod>2026-06-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://mqlwmsltm-arch.github.io/bp-t3b04-ss-karaoke-rsv/feed.xml</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
   </url>
 </urlset>
