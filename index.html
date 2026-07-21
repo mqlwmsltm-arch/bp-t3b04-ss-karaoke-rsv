@@ -28,42 +28,48 @@
     <meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect fill='%23000' width='800' height='400'/%3E%3Ctext x='50' y='220' font-family='Impact' font-size='96' fill='%23ff3b00'%3EKARAOKE%3C/text%3E%3C/svg%3E">
     
     <!-- JSON-LD 스키마 -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "상수 가라오케",
+  "alternateName": "상수 가라오케 예약",
+  "description": "상수역 가라오케. 하드코어 사운드, 24시 운영. 예약 필수.",
+  "url": "https://sangsu-song-room.mapo-room-guide.xyz/",
+  "telephone": "+82-10-6279-0862",
+  "email": "bro@sskaraoke.kr",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "서울특별시",
+    "addressRegion": "마포구",
+    "addressCountry": "KR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 37.5479,
+    "longitude": 126.9204
+  },
+  "openingHoursSpecification": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "상수 가라오케",
-        "alternateName": "상수 가라오케 예약",
-        "description": "상수역 가라오케. 하드코어 사운드, 24시 운영. 예약 필수.",
-        "url": "https://t3b04-ss-karaoke-rsv.pages.dev",
-        "telephone": "+82-10-6279-0862",
-        "email": "bro@sskaraoke.kr",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "서울특별시",
-            "addressRegion": "마포구",
-            "addressCountry": "KR"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 37.5479,
-            "longitude": 126.9204
-        },
-        "openingHoursSpecification": [
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-                "opens": "00:00",
-                "closes": "23:59"
-            }
-        ],
-        "priceRange": "₩₩",
-        "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect fill='%23000' width='800' height='400'/%3E%3Ctext x='50' y='220' font-family='Impact' font-size='96' fill='%23ff3b00'%3EKARAOKE%3C/text%3E%3C/svg%3E",
-        "sameAs": [
-            "https://instagram.com/sskaraoke"
-        ]
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
     }
-    </script>
+  ],
+  "priceRange": "₩₩",
+  "image": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Crect fill='%23000' width='800' height='400'/%3E%3Ctext x='50' y='220' font-family='Impact' font-size='96' fill='%23ff3b00'%3EKARAOKE%3C/text%3E%3C/svg%3E",
+  "sameAs": [
+    "https://instagram.com/sskaraoke"
+  ]
+}</script>
 
     <style>
         /* ===== RESET & BASE ===== */
